@@ -85,8 +85,9 @@ img{
     padding: 1rem 2rem;
     font-size: 1.4rem;
     border: none;
-    border-top-left-radius: 3px;
-    border-bottom-left-radius: 3px;
+    /* border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px; */
+    border-radius: 3px;
     outline: none;
     color: var(--light-dark-color);
     width: 350px;
@@ -228,6 +229,7 @@ img{
     color: var(--yellow-color);
     margin: 1rem 0.7rem 0 0;
 }
+
 
 @media(max-width: 450px){
     .logo p{
